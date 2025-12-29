@@ -13,7 +13,7 @@ data and OMXS30 index prices. The project includes data processing, model traini
 portfolio simulator, and an interactive Dash dashboard. Big improvements can be made to the machine learning part
 and the portfolio part which would benifit from leverage and a more sophisticated risk management system.
 
-Recommended starting setting: Horizon: 5, Threshold: 51, Position size: 50
+Recommended starting setting: Horizon: 5, Threshold: 51, Position size: 10
 
 The portfolio seems to have an edge when the underlying index is weaker, but when it is bullish it just goes to 100%
 exposure and follows it 1:1. This could maybe be solved with the addition of leverage and changing it to more of a 
